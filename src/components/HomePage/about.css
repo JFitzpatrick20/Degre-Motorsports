@@ -1,0 +1,9 @@
+.about {
+  border: 3px black solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.aboutTitle {
+  text-decoration: underline;
+}

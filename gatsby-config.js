@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "DeGre-Motorsports",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-twitter"],
 };
