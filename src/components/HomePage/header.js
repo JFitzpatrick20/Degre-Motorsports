@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Header = () => {
   return (
     <div className="navbar">
-      <Navbar bg="secondary">
+      <Navbar bg="secondary" style={{ minWidth: "100vw" }}>
         <Navbar.Brand href="#home">Degre Motorsports</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
