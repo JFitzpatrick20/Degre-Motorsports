@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 75px 1fr 75px;
 }
 .headerHome {
@@ -26,4 +26,9 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+@media screen and (max-width: 800px) {
+  .content {
+    display: inline;
+  }
 }
